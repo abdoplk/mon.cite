@@ -6,26 +6,44 @@
   <style>
     body {
       font-family: Tahoma, sans-serif;
-      background-color: #f0f0f0;
+      margin: 0;
+      background-color: #f9f9f9;
+    }
+
+    .navbar {
+      background-color: #333;
+      overflow: hidden;
+      padding: 10px;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 14px 20px;
+      display: inline-block;
+    }
+
+    .navbar a:hover {
+      background-color: #575757;
+    }
+
+    .content {
       text-align: center;
       padding: 50px;
-    }
-    h1 {
-      color: #333;
-    }
-    a {
-      display: inline-block;
-      margin-top: 20px;
-      font-size: 18px;
-      text-decoration: none;
-      color: #007bff;
     }
   </style>
 </head>
 <body>
-  <h1>مرحباً بك في موقعي!</h1>
-  <p>أنا أتعلم تطوير المواقع مع ChatGPT.</p>
 
-  <a href="about.html">من أنا</a>
+  <div class="navbar">
+    <a href="index.html">الرئيسية</a>
+    <a href="about.html">من أنا</a>
+  </div>
+
+  <div class="content">
+    <h1>مرحباً بك في موقعي!</h1>
+    <p>أنا أتعلم تصميم المواقع مع ChatGPT.</p>
+  </div>
+
 </body>
 </html>
